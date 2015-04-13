@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *authButton;
+@property (weak, nonatomic) IBOutlet UIButton *showButton;
+@property (weak, nonatomic) IBOutlet UILabel *authLabel;
+
+- (IBAction)authButtonPressed:(id)sender;
+- (IBAction)showButtonPressed:(id)sender;
 
 @end
 

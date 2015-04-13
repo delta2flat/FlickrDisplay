@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14DABC391AD9AFF7006BC314 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DABC381AD9AFF7006BC314 /* AssetsLibrary.framework */; };
+		14DABC3B1AD9B00C006BC314 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DABC3A1AD9B00C006BC314 /* SystemConfiguration.framework */; };
+		14DABC3D1AD9B01D006BC314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DABC3C1AD9B01D006BC314 /* UIKit.framework */; };
+		14DABC3F1AD9B02D006BC314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DABC3E1AD9B02D006BC314 /* Foundation.framework */; };
+		14DABC411AD9B036006BC314 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DABC401AD9B036006BC314 /* CoreGraphics.framework */; };
+		14DABC4C1AD9B3A6006BC314 /* libFlickrKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DABC471AD9B198006BC314 /* libFlickrKit.a */; };
+		14DABC521AD9B454006BC314 /* FKAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DABC501AD9B454006BC314 /* FKAuthViewController.m */; };
+		14DABC531AD9B454006BC314 /* FKAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DABC511AD9B454006BC314 /* FKAuthViewController.xib */; };
+		14DABC5A1ADA46FA006BC314 /* FKPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DABC581ADA46FA006BC314 /* FKPhotosViewController.m */; };
+		14DABC5B1ADA46FA006BC314 /* FKPhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DABC591ADA46FA006BC314 /* FKPhotosViewController.xib */; };
 		14FA33C71AD8E30C00A86F59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA33C61AD8E30C00A86F59 /* main.m */; };
 		14FA33CA1AD8E30C00A86F59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA33C91AD8E30C00A86F59 /* AppDelegate.m */; };
 		14FA33CD1AD8E30C00A86F59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA33CC1AD8E30C00A86F59 /* ViewController.m */; };
@@ -14,9 +24,24 @@
 		14FA33D21AD8E30C00A86F59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14FA33D11AD8E30C00A86F59 /* Images.xcassets */; };
 		14FA33D51AD8E30C00A86F59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14FA33D31AD8E30C00A86F59 /* LaunchScreen.xib */; };
 		14FA33E11AD8E30C00A86F59 /* FlickrDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA33E01AD8E30C00A86F59 /* FlickrDisplayTests.m */; };
+		14FA33EC1AD8E50F00A86F59 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA33EB1AD8E50F00A86F59 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		14DABC461AD9B198006BC314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14DABC2E1AD9AC75006BC314 /* FlickrKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 552D918C1753F8EF00BE3FEA;
+			remoteInfo = FlickrKit;
+		};
+		14DABC481AD9B198006BC314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14DABC2E1AD9AC75006BC314 /* FlickrKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 552D919A1753F8F000BE3FEA;
+			remoteInfo = FlickrKitTests;
+		};
 		14FA33DB1AD8E30C00A86F59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 14FA33B91AD8E30C00A86F59 /* Project object */;
@@ -27,6 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14DABC2E1AD9AC75006BC314 /* FlickrKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FlickrKit.xcodeproj; path = ../FlickrKit/FlickrKit.xcodeproj; sourceTree = "<group>"; };
+		14DABC381AD9AFF7006BC314 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		14DABC3A1AD9B00C006BC314 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		14DABC3C1AD9B01D006BC314 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14DABC3E1AD9B02D006BC314 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14DABC401AD9B036006BC314 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14DABC4F1AD9B454006BC314 /* FKAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKAuthViewController.h; path = Auth/FKAuthViewController.h; sourceTree = "<group>"; };
+		14DABC501AD9B454006BC314 /* FKAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKAuthViewController.m; path = Auth/FKAuthViewController.m; sourceTree = "<group>"; };
+		14DABC511AD9B454006BC314 /* FKAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FKAuthViewController.xib; path = Auth/FKAuthViewController.xib; sourceTree = "<group>"; };
+		14DABC571ADA46FA006BC314 /* FKPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPhotosViewController.h; path = Show/FKPhotosViewController.h; sourceTree = "<group>"; };
+		14DABC581ADA46FA006BC314 /* FKPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPhotosViewController.m; path = Show/FKPhotosViewController.m; sourceTree = "<group>"; };
+		14DABC591ADA46FA006BC314 /* FKPhotosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FKPhotosViewController.xib; path = Show/FKPhotosViewController.xib; sourceTree = "<group>"; };
 		14FA33C11AD8E30C00A86F59 /* FlickrDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FA33C51AD8E30C00A86F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14FA33C61AD8E30C00A86F59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +77,8 @@
 		14FA33DA1AD8E30C00A86F59 /* FlickrDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickrDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FA33DF1AD8E30C00A86F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14FA33E01AD8E30C00A86F59 /* FlickrDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrDisplayTests.m; sourceTree = "<group>"; };
+		14FA33EA1AD8E50F00A86F59 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		14FA33EB1AD8E50F00A86F59 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +86,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14DABC4C1AD9B3A6006BC314 /* libFlickrKit.a in Frameworks */,
+				14DABC411AD9B036006BC314 /* CoreGraphics.framework in Frameworks */,
+				14DABC3F1AD9B02D006BC314 /* Foundation.framework in Frameworks */,
+				14DABC3D1AD9B01D006BC314 /* UIKit.framework in Frameworks */,
+				14DABC3B1AD9B00C006BC314 /* SystemConfiguration.framework in Frameworks */,
+				14DABC391AD9AFF7006BC314 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +105,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14DABC421AD9B15B006BC314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14DABC471AD9B198006BC314 /* libFlickrKit.a */,
+				14DABC491AD9B198006BC314 /* FlickrKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14DABC541AD9B45D006BC314 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				14DABC4F1AD9B454006BC314 /* FKAuthViewController.h */,
+				14DABC501AD9B454006BC314 /* FKAuthViewController.m */,
+				14DABC511AD9B454006BC314 /* FKAuthViewController.xib */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		14DABC561ADA46E3006BC314 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				14DABC571ADA46FA006BC314 /* FKPhotosViewController.h */,
+				14DABC581ADA46FA006BC314 /* FKPhotosViewController.m */,
+				14DABC591ADA46FA006BC314 /* FKPhotosViewController.xib */,
+			);
+			name = Show;
+			sourceTree = "<group>";
+		};
 		14FA33B81AD8E30C00A86F59 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +159,10 @@
 				14FA33C91AD8E30C00A86F59 /* AppDelegate.m */,
 				14FA33CB1AD8E30C00A86F59 /* ViewController.h */,
 				14FA33CC1AD8E30C00A86F59 /* ViewController.m */,
+				14FA33EA1AD8E50F00A86F59 /* MyTableViewController.h */,
+				14FA33EB1AD8E50F00A86F59 /* MyTableViewController.m */,
+				14DABC541AD9B45D006BC314 /* Auth */,
+				14DABC561ADA46E3006BC314 /* Show */,
 				14FA33CE1AD8E30C00A86F59 /* Main.storyboard */,
 				14FA33D11AD8E30C00A86F59 /* Images.xcassets */,
 				14FA33D31AD8E30C00A86F59 /* LaunchScreen.xib */,
@@ -96,6 +174,12 @@
 		14FA33C41AD8E30C00A86F59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				14DABC2E1AD9AC75006BC314 /* FlickrKit.xcodeproj */,
+				14DABC401AD9B036006BC314 /* CoreGraphics.framework */,
+				14DABC3E1AD9B02D006BC314 /* Foundation.framework */,
+				14DABC3C1AD9B01D006BC314 /* UIKit.framework */,
+				14DABC3A1AD9B00C006BC314 /* SystemConfiguration.framework */,
+				14DABC381AD9AFF7006BC314 /* AssetsLibrary.framework */,
 				14FA33C51AD8E30C00A86F59 /* Info.plist */,
 				14FA33C61AD8E30C00A86F59 /* main.m */,
 			);
@@ -186,6 +270,12 @@
 			mainGroup = 14FA33B81AD8E30C00A86F59;
 			productRefGroup = 14FA33C21AD8E30C00A86F59 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 14DABC421AD9B15B006BC314 /* Products */;
+					ProjectRef = 14DABC2E1AD9AC75006BC314 /* FlickrKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				14FA33C01AD8E30C00A86F59 /* FlickrDisplay */,
@@ -194,14 +284,33 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		14DABC471AD9B198006BC314 /* libFlickrKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFlickrKit.a;
+			remoteRef = 14DABC461AD9B198006BC314 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		14DABC491AD9B198006BC314 /* FlickrKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FlickrKitTests.xctest;
+			remoteRef = 14DABC481AD9B198006BC314 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		14FA33BF1AD8E30C00A86F59 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14DABC5B1ADA46FA006BC314 /* FKPhotosViewController.xib in Resources */,
 				14FA33D01AD8E30C00A86F59 /* Main.storyboard in Resources */,
 				14FA33D51AD8E30C00A86F59 /* LaunchScreen.xib in Resources */,
 				14FA33D21AD8E30C00A86F59 /* Images.xcassets in Resources */,
+				14DABC531AD9B454006BC314 /* FKAuthViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +328,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14DABC521AD9B454006BC314 /* FKAuthViewController.m in Sources */,
 				14FA33CD1AD8E30C00A86F59 /* ViewController.m in Sources */,
+				14DABC5A1ADA46FA006BC314 /* FKPhotosViewController.m in Sources */,
 				14FA33CA1AD8E30C00A86F59 /* AppDelegate.m in Sources */,
 				14FA33C71AD8E30C00A86F59 /* main.m in Sources */,
+				14FA33EC1AD8E50F00A86F59 /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +461,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/CLMMacPro/Development/Tests/FlickrDisplay/FlickrKit/**",
+				);
 				INFOPLIST_FILE = FlickrDisplay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +476,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/CLMMacPro/Development/Tests/FlickrDisplay/FlickrKit/**",
+				);
 				INFOPLIST_FILE = FlickrDisplay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +540,7 @@
 				14FA33E61AD8E30C00A86F59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14FA33E71AD8E30C00A86F59 /* Build configuration list for PBXNativeTarget "FlickrDisplayTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +549,7 @@
 				14FA33E91AD8E30C00A86F59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,11 +12,37 @@
 
 @end
 
+
 @implementation AppDelegate
 
+@synthesize myTableViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    myTableViewController = [[MyTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    myTableViewController.view.frame = [UIScreen mainScreen].applicationFrame;
+    [_window addSubview:myTableViewController.view];
+    // Override point for customization after application launch
+    [_window makeKeyAndVisible];
+    
+    return YES;
+}
+
+- (BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    NSString *scheme = [url scheme];
+    if([@"flickrdisplay" isEqualToString:scheme]) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"UserAuthCallbackNotification" object:url userInfo:nil];
+    }
+    return YES;
+}
+
+-(BOOL) application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    NSString *scheme = [url scheme];
+    if([@"flickrdisplay" isEqualToString:scheme]) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"UserAuthCallbackNotification" object:url userInfo:nil];
+    }
     return YES;
 }
 
