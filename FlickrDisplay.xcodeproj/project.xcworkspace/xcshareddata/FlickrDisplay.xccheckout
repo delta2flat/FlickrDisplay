@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3FFC3DD2-E268-4237-8959-45636398F07E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FlickrDisplay</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4FF8CB72FEE4450A37215FC1DECE8C03C3468912</key>
+		<string>https://github.com/devedup/FlickrKit.git</string>
+		<key>C9A5E84F1E392D656201A20EBF2E1E333AB2ECEA</key>
+		<string>https://github.com/delta2flat/FlickrDisplay.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FlickrDisplay.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4FF8CB72FEE4450A37215FC1DECE8C03C3468912</key>
+		<string>../..FlickrKit/</string>
+		<key>C9A5E84F1E392D656201A20EBF2E1E333AB2ECEA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/delta2flat/FlickrDisplay.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C9A5E84F1E392D656201A20EBF2E1E333AB2ECEA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C9A5E84F1E392D656201A20EBF2E1E333AB2ECEA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FlickrDisplay</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4FF8CB72FEE4450A37215FC1DECE8C03C3468912</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FlickrKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
