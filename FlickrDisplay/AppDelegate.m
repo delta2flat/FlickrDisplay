@@ -15,15 +15,8 @@
 
 @implementation AppDelegate
 
-@synthesize myTableViewController;
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    
-    myTableViewController = [[MyTableViewController alloc] initWithStyle:UITableViewStylePlain];
-    myTableViewController.view.frame = [UIScreen mainScreen].applicationFrame;
-    [_window addSubview:myTableViewController.view];
-    // Override point for customization after application launch
+
     [_window makeKeyAndVisible];
     
     return YES;

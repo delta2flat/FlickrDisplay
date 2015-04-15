@@ -24,7 +24,6 @@
 		14FA33D21AD8E30C00A86F59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14FA33D11AD8E30C00A86F59 /* Images.xcassets */; };
 		14FA33D51AD8E30C00A86F59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14FA33D31AD8E30C00A86F59 /* LaunchScreen.xib */; };
 		14FA33E11AD8E30C00A86F59 /* FlickrDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA33E01AD8E30C00A86F59 /* FlickrDisplayTests.m */; };
-		14FA33EC1AD8E50F00A86F59 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA33EB1AD8E50F00A86F59 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,8 +76,6 @@
 		14FA33DA1AD8E30C00A86F59 /* FlickrDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickrDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FA33DF1AD8E30C00A86F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14FA33E01AD8E30C00A86F59 /* FlickrDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrDisplayTests.m; sourceTree = "<group>"; };
-		14FA33EA1AD8E50F00A86F59 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
-		14FA33EB1AD8E50F00A86F59 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +156,6 @@
 				14FA33C91AD8E30C00A86F59 /* AppDelegate.m */,
 				14FA33CB1AD8E30C00A86F59 /* ViewController.h */,
 				14FA33CC1AD8E30C00A86F59 /* ViewController.m */,
-				14FA33EA1AD8E50F00A86F59 /* MyTableViewController.h */,
-				14FA33EB1AD8E50F00A86F59 /* MyTableViewController.m */,
 				14DABC541AD9B45D006BC314 /* Auth */,
 				14DABC561ADA46E3006BC314 /* Show */,
 				14FA33CE1AD8E30C00A86F59 /* Main.storyboard */,
@@ -333,7 +328,6 @@
 				14DABC5A1ADA46FA006BC314 /* FKPhotosViewController.m in Sources */,
 				14FA33CA1AD8E30C00A86F59 /* AppDelegate.m in Sources */,
 				14FA33C71AD8E30C00A86F59 /* main.m in Sources */,
-				14FA33EC1AD8E50F00A86F59 /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

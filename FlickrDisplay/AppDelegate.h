@@ -7,12 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MyTableViewController.h"
 
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (nonatomic, weak) MyTableViewController *myTableViewController;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 

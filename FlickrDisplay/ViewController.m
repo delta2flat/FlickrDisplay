@@ -29,6 +29,8 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userAuthenticateCallback:) name:@"UserAuthCallbackNotification" object:nil];
     
+    self.showButton.enabled = NO;
+    
     // draw borders
     [[self.authButton layer] setBorderWidth:1.0f];
     [[self.authButton layer] setCornerRadius:4.0f];
@@ -59,7 +61,9 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             if (!error) {
                 [self userLoggedIn:userName userID:userId];
+                self.showButton.enabled = YES;
             } else {
+                self.showButton.enabled = NO;
                 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:error.localizedDescription delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
                 [alert show];
             }

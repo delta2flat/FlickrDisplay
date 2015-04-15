@@ -7,7 +7,7 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>3FFC3DD2-E268-4237-8959-45636398F07E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>FlickrDisplay</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>4FF8CB72FEE4450A37215FC1DECE8C03C3468912</key>
@@ -16,7 +16,7 @@
 		<string>https://github.com/delta2flat/FlickrDisplay.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FlickrDisplay.xcodeproj</string>
+	<string>FlickrDisplay.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4FF8CB72FEE4450A37215FC1DECE8C03C3468912</key>

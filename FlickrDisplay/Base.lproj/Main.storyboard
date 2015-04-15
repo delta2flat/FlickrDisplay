@@ -51,14 +51,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="R7V-K1-gcy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="5Na-2b-NwS"/>
-                            <constraint firstItem="R7V-K1-gcy" firstAttribute="trailing" secondItem="d9k-IO-kR7" secondAttribute="trailing" constant="-30" id="7NW-gW-BOe"/>
+                            <constraint firstItem="R7V-K1-gcy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="5Na-2b-NwS"/>
+                            <constraint firstItem="R7V-K1-gcy" firstAttribute="trailing" secondItem="d9k-IO-kR7" secondAttribute="trailing" constant="-20" id="7NW-gW-BOe"/>
                             <constraint firstItem="R7V-K1-gcy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="8mX-AM-hKD"/>
                             <constraint firstItem="R7V-K1-gcy" firstAttribute="top" secondItem="d9k-IO-kR7" secondAttribute="top" id="E3e-Ct-FbF"/>
                             <constraint firstItem="oSX-Fb-2A9" firstAttribute="baseline" secondItem="R7V-K1-gcy" secondAttribute="baseline" id="U8p-sX-yGQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oSX-Fb-2A9" secondAttribute="trailing" constant="30" id="clE-8Q-TmL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oSX-Fb-2A9" secondAttribute="trailing" constant="20" id="clE-8Q-TmL"/>
                             <constraint firstAttribute="centerX" secondItem="d9k-IO-kR7" secondAttribute="centerX" id="kcG-fA-gXQ"/>
-                            <constraint firstItem="oSX-Fb-2A9" firstAttribute="leading" secondItem="d9k-IO-kR7" secondAttribute="leading" constant="30" id="qNv-KO-99a"/>
+                            <constraint firstItem="oSX-Fb-2A9" firstAttribute="leading" secondItem="d9k-IO-kR7" secondAttribute="leading" constant="20" id="qNv-KO-99a"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Please Login to Flickr" id="tcy-HV-xgR"/>
